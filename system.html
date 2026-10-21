@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>System - Nova Wiki</title>
-<meta name="description" content="The system behind the library: nine profiles, integrations, automation, and the homelab.">
+<meta name="description" content="The system behind the library: 10 profiles, integrations, automation, and the homelab.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,12 +15,12 @@
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="">
+    <a class="brand" href="index.html">
       <span class="brand-mark">N</span>
       <span>Nova Wiki <span class="tag">agent library</span></span>
     </a>
     <nav class="main-nav" aria-label="Main">
-      <a href="" class="">Library</a>
+      <a href="index.html" class="">Library</a>
       <a href="system.html" class="active">System</a>
       <a href="nova.html" class="">Nova</a>
     </nav>
@@ -33,25 +33,26 @@
 
     <section class="intro">
       <h1>The system behind <span class="accent">the library</span>.</h1>
-      <p class="lede">Every entry in this library runs on a real machine: nine agent profiles, a shared skill catalog, desktop plugins, MCP integrations, and a homelab. This page is the map.</p>
+      <p class="lede">Every entry in this library runs on a real machine: 10 agent profiles, a shared skill catalog, desktop plugins, MCP integrations, and a homelab. This page is the map.</p>
       <div class="meta-line">
-        <span>snapshot as of 2026-10-15 23:16 US Mountain Standard Time</span>
+        <span>snapshot as of 2026-10-21 15:21 US Mountain Standard Time</span>
         <span>regenerated with every build</span>
       </div>
     </section>
 
     <h2>Profiles</h2>
-    <p>One Hermes install, nine profiles. Each is a specialist with its own memory, credentials, and cron jobs; a single multiplex gateway ticks all of their schedules. Nova lives in the default profile and coordinates the rest.</p>
+    <p>One Hermes install, 10 profiles. Each is a specialist with its own memory, credentials, and cron jobs; a single multiplex gateway ticks all of their schedules. Nova lives in the default profile and coordinates the rest. In practice: work in one area stays in that area, and each specialist keeps its own memory and credentials.</p>
     <div class="profile-grid">
       <div class="profile-card"><div class="p-name">default</div><div class="p-role">Nova's home, chief of staff</div><div class="p-model">deepseek-v4-pro</div></div>
-      <div class="profile-card"><div class="p-name">brain</div><div class="p-role">deep thinking and research</div><div class="p-model">deepseek-flash</div></div>
-      <div class="profile-card"><div class="p-name">coding</div><div class="p-role">delegated coding work</div><div class="p-model">deepseek-v4-pro</div></div>
-      <div class="profile-card"><div class="p-name">coding-lite</div><div class="p-role">light coding tasks</div><div class="p-model">deepseek-flash</div></div>
-      <div class="profile-card"><div class="p-name">finance</div><div class="p-role">budget and money</div><div class="p-model">deepseek-flash</div></div>
-      <div class="profile-card"><div class="p-name">household</div><div class="p-role">bills, chores, house ops</div><div class="p-model">deepseek-flash</div></div>
+      <div class="profile-card"><div class="p-name">builder</div><div class="p-role">builds and ships projects</div><div class="p-model">gpt-6.1-sol</div></div>
+      <div class="profile-card"><div class="p-name">builder-heavy</div><div class="p-role">heavy builds, deep coding</div><div class="p-model">gpt-6-astra</div></div>
+      <div class="profile-card"><div class="p-name">builder-lite</div><div class="p-role">light build tasks</div><div class="p-model">deepseek-flash</div></div>
+      <div class="profile-card"><div class="p-name">careers</div><div class="p-role">career and job-search work</div><div class="p-model">gpt-6.1-sol</div></div>
+      <div class="profile-card"><div class="p-name">designer</div><div class="p-role">design and visual polish</div><div class="p-model">gpt-6.1-sol</div></div>
       <div class="profile-card"><div class="p-name">inbox</div><div class="p-role">email and Discord triage</div><div class="p-model">deepseek-flash</div></div>
-      <div class="profile-card"><div class="p-name">jobs</div><div class="p-role">the job-search command center</div><div class="p-model">gpt-6-astra</div></div>
-      <div class="profile-card"><div class="p-name">orchestrator</div><div class="p-role">kanban and multi-agent routing</div><div class="p-model">deepseek-flash</div></div>
+      <div class="profile-card"><div class="p-name">research</div><div class="p-role">research and discovery</div><div class="p-model">deepseek-flash</div></div>
+      <div class="profile-card"><div class="p-name">scholar</div><div class="p-role">deep research and study</div><div class="p-model">gpt-6.1-sol</div></div>
+      <div class="profile-card"><div class="p-name">verifier</div><div class="p-role">verifies and audits work</div><div class="p-model">gpt-6.1-sol</div></div>
     </div>
 
     <h2>Integrations</h2>
@@ -60,29 +61,33 @@
       <li><strong>Google:</strong> Gmail, Calendar, and YouTube Music through one OAuth client.</li>
       <li><strong>Discord:</strong> a bot on a private server is the primary surface; cron feeds post to channels like #nova, #inbox, #jobs, #tech-news, and #things-to-do.</li>
     </ul>
+    <p>In practice: one assistant can reach tasks, notes, email, calendar, and chat without switching tools.</p>
 
     <h2>Automation</h2>
     <ul>
       <li><strong>Multiplex gateway:</strong> one process ticks every profile's cron jobs; jobs catch up when the machine wakes.</li>
-      <li><strong>Job-scout heartbeat:</strong> a recurring scout pass that surfaces new matches to the #jobs feed.</li>
+      <li><strong>Job search:</strong> runs as a kanban board with the jobs profile as the command center; matches that clear a defined filter surface in the #jobs feed for review.</li>
       <li><strong>Approval flows:</strong> desktop plugins turn unattended batch work into approve/deny popups, so nothing writes itself into memory unchecked.</li>
     </ul>
+    <p>In practice: schedules run on their own, and unattended batch work asks for approval before it writes anything.</p>
 
     <h2>Homelab</h2>
     <ul>
       <li><strong>Runtime:</strong> Docker plus a WSL2 Ubuntu instance named Ubuntu-Nova, on the same laptop that runs Hermes.</li>
-      <li><strong>AI serving:</strong> Open WebUI and SearXNG for local web search.</li>
-      <li><strong>Media and home:</strong> Jellyfin, Jellyseerr, Sonarr, Radarr, Home Assistant, Vaultwarden, and a Homepage dashboard.</li>
+      <li><strong>Local AI:</strong> Nova runs right here on this laptop, with SearXNG for private web search.</li>
+      <li><strong>Media and home:</strong> Jellyfin, Jellyseerr, Trakt, Home Assistant, Vaultwarden, and a Homepage dashboard.</li>
     </ul>
+    <p>In practice: everything runs on one laptop, so the data stays home.</p>
 
     <h2>Desktop plugins</h2>
-    <p>Eight plugins extend the Hermes desktop app itself: from the <a href="plugin/memory-inbox/">memory inbox</a> that gatekeeps what enters memory, to <a href="plugin/session-sections/">session sections</a> that organize the work board. See the <a href="#plugin">plugin pages in the library</a> for each one.</p>
+    <p>Eight plugins extend the Hermes desktop app itself. The four Jacque built, from the <a href="plugin/memory-inbox/">memory inbox</a> that gatekeeps what enters memory to <a href="plugin/session-sections/">session sections</a> that organize the work board, are cataloged in the library; the rest ship with the app.</p>
 
   </div>
 </main>
 <footer class="site-footer">
   <div class="footer-inner">
-    <span>Generated 2026-10-15 23:16 US Mountain Standard Time by the Nova Wiki build script, straight from Jacque's live Hermes install.</span>
+    <span><a href="https://www.linkedin.com/in/jaba6/">Jacque Baldenegro</a> · <a href="mailto:bjacque92@gmail.com">bjacque92@gmail.com</a></span>
+    <span>Generated 2026-10-21 15:21 US Mountain Standard Time by the Nova Wiki build script, straight from Jacque's live Hermes install.</span>
     <span><code>llms.txt</code> for agents · <a href="nova.html">what is Nova?</a><a href="http://127.0.0.1:8787/admin/" class="secret-door" tabindex="-1" aria-label="Admin" title="">.</a></span>
   </div>
 </footer>

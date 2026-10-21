@@ -4,148 +4,56 @@
 
 This file is the agent-readable index. Paths are relative to the site root; humans get the same pages rendered.
 
-Generated: 2026-10-15 23:16 US Mountain Standard Time
+Generated: 2026-10-21 15:21 US Mountain Standard Time
 
 ## Key pages
 - Library (every entry, searchable): /
 - System overview: /system.html
 - What Nova is: /nova.html
 
-## Skills (127)
+## Skills (39)
 - [ai-mirror-sync](skill/ai-mirror-sync/): Use when Jacque says mirror the AIs. Syncs all AI mirrors.
-- [airtable](skill/airtable/): Airtable REST API via curl. Records CRUD, filters, upserts.
 - [alans-way](skill/alans-way/): Use when setting up Alan's Way (OpenAlan) for Hermes.
-- [apple-notes](skill/apple-notes/): Manage Apple Notes via memo CLI: create, search, edit.
-- [apple-reminders](skill/apple-reminders/): Apple Reminders via remindctl: add, list, complete.
-- [architecture-diagram](skill/architecture-diagram/): Dark-themed SVG architecture/cloud/infra diagrams as HTML.
-- [arxiv](skill/arxiv/): Search arXiv papers by keyword, author, category, or ID.
-- [ascii-art](skill/ascii-art/): ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.
-- [ascii-video](skill/ascii-video/): ASCII video: convert video/audio to colored ASCII MP4/GIF.
 - [auction-flips](skill/auction-flips/): Use when Jacque watches or researches auction items.
-- [audiocraft-audio-generation](skill/audiocraft-audio-generation/): AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.
 - [auditing-delegated-work](skill/auditing-delegated-work/): Use when auditing whether delegated work is really done.
-- [axolotl](skill/axolotl/): Axolotl: YAML LLM fine-tuning (LoRA, DPO, GRPO).
-- [baoyu-infographic](skill/baoyu-infographic/): Infographics: 21 layouts x 21 styles (信息图, 可视化).
-- [blocked-page-recovery](skill/blocked-page-recovery/): Use when a fetch fails: 403/429, paywall, WAF, bot wall.
-- [box](skill/box/): Box manages cloud files, sharing, search, and metadata.
 - [budget-workbook](skill/budget-workbook/): Use when revising Jacque + Kyle's HOUSE.xlsx budget.
 - [carrier-promo-recovery](skill/carrier-promo-recovery/): Carrier dropped a promo or perk. Escalate to restore it.
 - [chatgpt-export-extraction](skill/chatgpt-export-extraction/): Extract durable knowledge from a ChatGPT export into files.
-- [claude-code](skill/claude-code/): Delegate coding to Claude Code CLI (features, PRs).
-- [claude-design](skill/claude-design/): Design one-off HTML artifacts (landing, deck, prototype).
-- [clip](skill/clip/): Zero-shot image classification and image-text search.
-- [codebase-inspection](skill/codebase-inspection/): Inspect codebases w/ pygount: LOC, languages, ratios.
-- [codex](skill/codex/): Delegate coding to OpenAI Codex CLI (features, PRs).
 - [codex-model-routing](skill/codex-model-routing/): Use when delegating work to Codex, or unsure if you should.
-- [competitor-news-monitor](skill/competitor-news-monitor/): Watch named companies for material news; cited digests.
-- [computer-use](skill/computer-use/): Drive the desktop background-first; escalate on signal.
-- [data-designer](skill/data-designer/): Use when the user wants to create a dataset, generate synthetic data, or build a data generation pipeline.
-- [decision-questionnaire](skill/decision-questionnaire/): Turn an unanswerable decision into a questionnaire doc.
-- [design-md](skill/design-md/): Author/validate/export Google's DESIGN.md token spec files.
-- [desktop-plugin-maker](skill/desktop-plugin-maker/): Build, verify, and package Hermes desktop plugins.
 - [discord-channel-template](skill/discord-channel-template/): Use when creating/configuring a Discord channel on Test AI.
-- [document-to-action-items](skill/document-to-action-items/): Extract cited obligations, deadlines, tasks from documents.
-- [docx](skill/docx/): Create, read, edit, template, and review Word .docx files.
-- [dogfood](skill/dogfood/): Exploratory QA of web apps: find bugs, evidence, reports.
-- [duckduckgo-search](skill/duckduckgo-search/): Free keyless web, news, and image search via ddgs.
-- [email-inbox-triage](skill/email-inbox-triage/): Triage an inbox: prioritize threads, draft replies safely.
-- [findmy](skill/findmy/): Track Apple devices/AirTags via FindMy.app on macOS.
-- [gif-search](skill/gif-search/): Search/download GIFs from Tenor via curl + jq.
-- [github](skill/github/): GitHub via gh CLI: PRs, issues, reviews, repos, auth.
-- [google-workspace](skill/google-workspace/): Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.
-- [grill-me](skill/grill-me/): Adversarial plan interview before implementation.
-- [grounded-citations](skill/grounded-citations/): Ground answers and documents in cited, verifiable sources.
-- [hermes-agent](skill/hermes-agent/): Use, configure, theme, extend, and orchestrate Hermes Agent.
-- [hermes-agent-skill-authoring](skill/hermes-agent-skill-authoring/): Author in-repo SKILL.md files: frontmatter and structure.
+- [game-recommendations](skill/game-recommendations/): Use when recommending cross-play games for Jacque and Kyle.
+- [games-freebies-digest](skill/games-freebies-digest/): Use when posting Nova's daily games & freebies digest.
+- [gig-scout](skill/gig-scout/): Use when scouting 1099/freelance/small-project gigs.
 - [hermes-backup-windows](skill/hermes-backup-windows/): Use when backing up or restoring Jacque's Hermes on Windows.
 - [hermes-ecosystem-digest](skill/hermes-ecosystem-digest/): Use when curating a digest of new Hermes skills/plugins.
-- [himalaya](skill/himalaya/): Himalaya CLI: IMAP/SMTP email from terminal.
+- [hermes-plugins-weekly](skill/hermes-plugins-weekly/): Use when posting the weekly Hermes plugins digest.
 - [homelab-services](skill/homelab-services/): Use when managing self-hosted services on the homelab.
 - [household](skill/household/): Use when adding or removing household bills and chores.
 - [household-budget](skill/household-budget/): Use when revising Jacque & Kyle's household budget workbook.
 - [household-budget-workbook](skill/household-budget-workbook/): Use when editing Jacque & Kyle's household budget workbook.
-- [humanizer](skill/humanizer/): Humanize text: strip AI-isms and add real voice.
-- [hyperframes](skill/hyperframes/): Render MP4/WebM videos from HTML compositions.
-- [imessage](skill/imessage/): Send and receive iMessages/SMS via the imsg CLI on macOS.
-- [inference-sh-cli](skill/inference-sh-cli/): Run 150+ AI apps (image, video, LLM) via inference.sh CLI.
-- [inspecting-hermes-desktop-dom](skill/inspecting-hermes-desktop-dom/): Read the live Hermes desktop DOM/CSS over CDP.
-- [instructor](skill/instructor/): Structured LLM outputs validated with Pydantic.
-- [jacque-cover-letter](skill/jacque-cover-letter/): Write or revise Jacque Baldenegro's cover letter for a supplied job posting using prior letters as voice and design references, current career evidence for factual claims, and specific role duties for the argument. Use for a targeted cover letter or portal letter response, not broad job discovery, resume revision, or application submission.
-- [jacque-job-scout](skill/jacque-job-scout/): Use when scouting or assessing jobs for Jacque's AI career.
-- [jacque-resume-tailor](skill/jacque-resume-tailor/): Tailor Jacque Baldenegro's resume to a supplied job description or posting using truthful evidence, natural role-specific language, and the existing resume's visual design. Create editable DOCX and text-based PDF deliverables with separate factual, extraction, and rendered-page checks. Use for targeted resume revisions, not broad job discovery, application submission, or automatic cover letters.
 - [job-posting-discovery](skill/job-posting-discovery/): Use when building or running job-posting discovery.
 - [job-posting-intake](skill/job-posting-intake/): Use when building a job-posting discovery pipeline.
 - [kanban-orchestration](skill/kanban-orchestration/): Use when setting up or driving multi-profile Kanban work.
-- [linkedin-automation](skill/linkedin-automation/): Use when automating LinkedIn in the browser for Jacque.
-- [llm-wiki](skill/llm-wiki/): Karpathy's LLM Wiki: build/query interlinked markdown KB.
 - [local-llm-serving](skill/local-llm-serving/): Use when running local LLMs via Ollama, incl. abliterated.
-- [manim-video](skill/manim-video/): Manim CE animations: 3Blue1Brown math/algo videos.
-- [maps](skill/maps/): Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.
-- [meeting-action-items](skill/meeting-action-items/): Turn meeting notes into cited decisions, owners, tickets.
-- [memento-flashcards](skill/memento-flashcards/): Spaced-repetition flashcards: create, review, quiz, export.
 - [messaging-platform-bot-setup](skill/messaging-platform-bot-setup/): Use when setting up a chat-platform bot for the gateway.
-- [node-inspect-debugger](skill/node-inspect-debugger/): Debug Node.js via --inspect + Chrome DevTools Protocol CLI.
-- [notion](skill/notion/): Notion API + ntn CLI: pages, databases, markdown, Workers.
 - [nova-ai](skill/nova-ai/): Use when building or operating Jacque's Nova AI on Hermes.
+- [nova-application-pipeline](skill/nova-application-pipeline/): Use when Jacque tailors a resume or cover letter (v3 flow).
 - [nova-budget-design](skill/nova-budget-design/): Use when building or auditing the Nova budget workbook.
-- [nova-media-manual](skill/nova-media-manual/): Use when operating Jacque's NOVA media stack in Ubuntu-Nova.
 - [nova-pipeline-coordination](skill/nova-pipeline-coordination/): Use when verifying Codex work on the Nova pipeline.
-- [nova-project](skill/nova-project/): Use when working inside Jacque's Nova project.
 - [nova-routing](skill/nova-routing/): Use when Jacque says ROUTE THIS:. Dispatch via kanban.
-- [nova-wiki](skill/nova-wiki/): Use when working on Nova Wiki, Jacque's agent-library site.
-- [obsidian](skill/obsidian/): Read, search, create, and edit notes in the Obsidian vault.
-- [openclaw-migration](skill/openclaw-migration/): Import an OpenClaw setup (memories, skills) into Hermes.
-- [opencode](skill/opencode/): Delegate coding to OpenCode CLI (features, PR review).
-- [openhue](skill/openhue/): Control Philips Hue lights, scenes, rooms via OpenHue CLI.
-- [p5js](skill/p5js/): p5.js sketches: gen art, shaders, interactive, 3D.
 - [paid-research-platforms](skill/paid-research-platforms/): Use when the user works on Prolific or paid survey sites.
-- [pdf](skill/pdf/): PDF files: create, read, merge, fill, OCR, edit text.
 - [personalization-interview](skill/personalization-interview/): Use when running a personalization interview.
-- [pixel-art](skill/pixel-art/): Pixel art w/ era palettes (NES, Game Boy, PICO-8).
-- [popular-web-designs](skill/popular-web-designs/): 54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.
-- [powerpoint](skill/powerpoint/): Create, read, edit .pptx decks with python-pptx.
-- [product-price-monitor](skill/product-price-monitor/): Watch product, flight, or listing prices; alert on target.
 - [provider-rate-limits-planning](skill/provider-rate-limits-planning/): Use when choosing AI plans for usage-heavy workflows.
 - [prusaslicer-tuning](skill/prusaslicer-tuning/): Use when tuning PrusaSlicer settings for a print.
-- [python-debugpy](skill/python-debugpy/): Debug Python: pdb REPL + debugpy remote (DAP).
-- [reddit-reading](skill/reddit-reading/): Read Reddit: subreddits, search, threads, users. No browser.
-- [requesting-code-review](skill/requesting-code-review/): Pre-commit review: security scan, quality gates, auto-fix.
-- [rss-feeds](skill/rss-feeds/): Read RSS, Atom, JSON feeds; discover feeds behind a page.
-- [sdlc-review](skill/sdlc-review/): Review Kanban handoffs and route verified outcomes.
-- [search-recent-jobs](skill/search-recent-jobs/): >-
-- [searxng-search](skill/searxng-search/): Free keyless meta-search aggregating 70+ engines.
-- [secrets-locker](skill/secrets-locker/): Use when the user adds, moves, asks about secrets or keys.
-- [setup-wizard-generator](skill/setup-wizard-generator/): Generate a bash wizard guiding a human through manual setup.
 - [shopping-research](skill/shopping-research/): Use when researching a product to buy and recommending it.
-- [simplify-code](skill/simplify-code/): Parallel 4-agent cleanup of recent code changes.
-- [social-media-content-calendar](skill/social-media-content-calendar/): Plan multi-platform social campaigns: briefs to posting.
-- [songsee](skill/songsee/): Audio spectrograms/features (mel, chroma, MFCC) via CLI.
-- [songwriting-and-ai-music](skill/songwriting-and-ai-music/): Songwriting craft and Suno AI music prompts.
-- [spike](skill/spike/): Throwaway experiments to validate an idea before build.
-- [stable-diffusion](skill/stable-diffusion/): Text-to-image generation, inpainting, and img2img.
-- [subagent-driven-development](skill/subagent-driven-development/): Execute plans via delegate_task subagents (2-stage review).
 - [subscription-billing-disputes](skill/subscription-billing-disputes/): Use when a subscription charge looks duplicated or wrong.
-- [systematic-debugging](skill/systematic-debugging/): 4-phase root cause debugging: understand bugs before fixing.
-- [teams-meeting-pipeline](skill/teams-meeting-pipeline/): Teams meeting summaries, job replay, Graph subscriptions.
-- [test-driven-development](skill/test-driven-development/): TDD: enforce RED-GREEN-REFACTOR, tests before code.
-- [unsloth](skill/unsloth/): Unsloth: 2-5x faster LoRA/QLoRA fine-tuning, less VRAM.
 - [usage-dashboard](skill/usage-dashboard/): Use when updating or refreshing the usage dashboard feeds.
-- [watchers](skill/watchers/): Poll RSS, JSON APIs, and GitHub with watermark dedup.
-- [weekly-review-planning](skill/weekly-review-planning/): Weekly reset: commitments, stalled work, next-week plan.
-- [whisper](skill/whisper/): Transcribe and translate speech in 99 languages.
+- [venture-opportunity-scout](skill/venture-opportunity-scout/): Use when scouting venture opportunities for Jacque.
 - [windows-247-networking](skill/windows-247-networking/): Use when a Windows laptop must stay online 24/7 or drops.
 - [wiring-user-credentials](skill/wiring-user-credentials/): Use when an integration needs the user's own credential.
-- [xlsx](skill/xlsx/): Create, read, edit Excel .xlsx workbooks and CSVs.
-- [xurl](skill/xurl/): X/Twitter via xurl CLI: raw post search, posting, DM, media.
-- [youtube-content](skill/youtube-content/): YouTube transcripts to summaries, threads, blogs.
-- [yt-music](skill/yt-music/): Use when finding or playing Jacque's YT Music in Hermes.
 
-## Desktop plugins (8)
-- [current-model](plugin/current-model/): Shows the active model in the status bar.
+## Desktop plugins (4)
 - [memory-inbox](plugin/memory-inbox/): Desktop inbox for pending memory writes and skill suggestions, with About-you and Nova-notes tabs.
-- [quick-links](plugin/quick-links/): One-click pane to the homelab services.
-- [quick-prompts](plugin/quick-prompts/): One-click prompt shortcuts for recurring routines.
 - [session-alerts](plugin/session-alerts/): Session-row badges so new and waiting work is never missed.
 - [session-sections](plugin/session-sections/): Drag sessions into nested sidebar sections, project-backed or label-only.
-- [system-stats](plugin/system-stats/): Live CPU, RAM, and disk readout in the status bar.
 - [usage-dashboard](plugin/usage-dashboard/): Usage chips in the chat UI: model, provider, and spend at a glance.
