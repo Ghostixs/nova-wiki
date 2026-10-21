@@ -47,7 +47,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* ambient glow behind header — one light, not a gradient skin */
+/* ambient glow behind header: one light, not a gradient skin */
 .glow {
   position: fixed;
   top: -220px;
