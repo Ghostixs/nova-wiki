@@ -4,24 +4,26 @@
 
 This file is the agent-readable index. Paths are relative to the site root; humans get the same pages rendered.
 
-Generated: 2026-10-21 15:35 US Mountain Standard Time
+Generated: 2026-10-22 06:51 US Mountain Standard Time
 
 ## Key pages
 - Library (every entry, searchable): /
 - System overview: /system.html
 - What Nova is: /nova.html
 
-## Skills (39)
+## Skills (43)
 - [ai-mirror-sync](skill/ai-mirror-sync/): Use when Jacque says mirror the AIs. Syncs all AI mirrors.
 - [alans-way](skill/alans-way/): Use when setting up Alan's Way (OpenAlan) for Hermes.
 - [auction-flips](skill/auction-flips/): Use when Jacque watches or researches auction items.
 - [auditing-delegated-work](skill/auditing-delegated-work/): Use when auditing whether delegated work is really done.
-- [budget-workbook](skill/budget-workbook/): Use when revising Jacque + Kyle's HOUSE.xlsx budget.
+- [budget-workbook](skill/budget-workbook/): Use when revising the household HOUSE.xlsx budget.
+- [car-questions](skill/car-questions/): Use when Jacque asks about her car or warning lights.
 - [carrier-promo-recovery](skill/carrier-promo-recovery/): Carrier dropped a promo or perk. Escalate to restore it.
 - [chatgpt-export-extraction](skill/chatgpt-export-extraction/): Extract durable knowledge from a ChatGPT export into files.
 - [codex-model-routing](skill/codex-model-routing/): Use when delegating work to Codex, or unsure if you should.
 - [discord-channel-template](skill/discord-channel-template/): Use when creating/configuring a Discord channel on Test AI.
-- [game-recommendations](skill/game-recommendations/): Use when recommending cross-play games for Jacque and Kyle.
+- [documentation-index](skill/documentation-index/): Use when documenting or updating docs. Doc-system index.
+- [game-recommendations](skill/game-recommendations/): Use when recommending cross-play games for the household.
 - [games-freebies-digest](skill/games-freebies-digest/): Use when posting Nova's daily games & freebies digest.
 - [gig-scout](skill/gig-scout/): Use when scouting 1099/freelance/small-project gigs.
 - [hermes-backup-windows](skill/hermes-backup-windows/): Use when backing up or restoring Jacque's Hermes on Windows.
@@ -29,8 +31,8 @@ Generated: 2026-10-21 15:35 US Mountain Standard Time
 - [hermes-plugins-weekly](skill/hermes-plugins-weekly/): Use when posting the weekly Hermes plugins digest.
 - [homelab-services](skill/homelab-services/): Use when managing self-hosted services on the homelab.
 - [household](skill/household/): Use when adding or removing household bills and chores.
-- [household-budget](skill/household-budget/): Use when revising Jacque & Kyle's household budget workbook.
-- [household-budget-workbook](skill/household-budget-workbook/): Use when editing Jacque & Kyle's household budget workbook.
+- [household-budget](skill/household-budget/): Use when revising the household budget workbook.
+- [household-budget-workbook](skill/household-budget-workbook/): Use when editing the household budget workbook.
 - [job-posting-discovery](skill/job-posting-discovery/): Use when building or running job-posting discovery.
 - [job-posting-intake](skill/job-posting-intake/): Use when building a job-posting discovery pipeline.
 - [kanban-orchestration](skill/kanban-orchestration/): Use when setting up or driving multi-profile Kanban work.
@@ -43,8 +45,10 @@ Generated: 2026-10-21 15:35 US Mountain Standard Time
 - [nova-routing](skill/nova-routing/): Use when Jacque says ROUTE THIS:. Dispatch via kanban.
 - [paid-research-platforms](skill/paid-research-platforms/): Use when the user works on Prolific or paid survey sites.
 - [personalization-interview](skill/personalization-interview/): Use when running a personalization interview.
+- [profile-fleet-docs](skill/profile-fleet-docs/): Use when reshaping a Hermes profile. Fleet + doc sync.
 - [provider-rate-limits-planning](skill/provider-rate-limits-planning/): Use when choosing AI plans for usage-heavy workflows.
 - [prusaslicer-tuning](skill/prusaslicer-tuning/): Use when tuning PrusaSlicer settings for a print.
+- [security-scan](skill/security-scan/): Use when auditing for leaked secrets or PII. Masked scan.
 - [shopping-research](skill/shopping-research/): Use when researching a product to buy and recommending it.
 - [subscription-billing-disputes](skill/subscription-billing-disputes/): Use when a subscription charge looks duplicated or wrong.
 - [usage-dashboard](skill/usage-dashboard/): Use when updating or refreshing the usage dashboard feeds.
