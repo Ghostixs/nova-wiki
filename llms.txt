@@ -4,54 +4,85 @@
 
 This file is the agent-readable index. Paths are relative to the site root; humans get the same pages rendered.
 
-Generated: 2026-10-22 06:51 US Mountain Standard Time
+Generated: 2026-11-19 04:00 US Mountain Standard Time
 
 ## Key pages
 - Library (every entry, searchable): /
 - System overview: /system.html
 - What Nova is: /nova.html
 
-## Skills (43)
+## Skills (74)
+- [3d-model-search](skill/3d-model-search/): Use when Jacque asks to find 3D prints (STL models).
+- [agentwikis](skill/agentwikis/): Use when researching via AgentWikis MCP or picking a wiki.
+- [ai-automation-portfolio](skill/ai-automation-portfolio/): Use when building/updating Jacque's AI automation portfolio.
 - [ai-mirror-sync](skill/ai-mirror-sync/): Use when Jacque says mirror the AIs. Syncs all AI mirrors.
+- [ai-model-research](skill/ai-model-research/): Use when researching AI models' benchmarks and economics.
+- [ai-slop-review](skill/ai-slop-review/): Use when reviewing design for AI-slop tells. Grounding list.
 - [alans-way](skill/alans-way/): Use when setting up Alan's Way (OpenAlan) for Hermes.
 - [auction-flips](skill/auction-flips/): Use when Jacque watches or researches auction items.
 - [auditing-delegated-work](skill/auditing-delegated-work/): Use when auditing whether delegated work is really done.
-- [budget-workbook](skill/budget-workbook/): Use when revising the household HOUSE.xlsx budget.
 - [car-questions](skill/car-questions/): Use when Jacque asks about her car or warning lights.
 - [carrier-promo-recovery](skill/carrier-promo-recovery/): Carrier dropped a promo or perk. Escalate to restore it.
+- [cat-bot](skill/cat-bot/): Use when building/operating the Chorizo & Fish cat bot.
 - [chatgpt-export-extraction](skill/chatgpt-export-extraction/): Extract durable knowledge from a ChatGPT export into files.
 - [codex-model-routing](skill/codex-model-routing/): Use when delegating work to Codex, or unsure if you should.
+- [copywriting](skill/copywriting/): Write evidence-backed page copy in the brand voice.
+- [customer-research](skill/customer-research/): Synthesize customer evidence, interviews, and personas.
+- [discord-api-operations](skill/discord-api-operations/): Use when operating the Discord server/bot via REST API.
 - [discord-channel-template](skill/discord-channel-template/): Use when creating/configuring a Discord channel on Test AI.
+- [discord-server-rebuild](skill/discord-server-rebuild/): Use when rebuilding/migrating the Test AI Discord server.
 - [documentation-index](skill/documentation-index/): Use when documenting or updating docs. Doc-system index.
+- [election-ballot-guide](skill/election-ballot-guide/): Use when guiding a voter through their ballot items.
+- [flowstep](skill/flowstep/): Use when generating/editing UI screens with Flowstep MCP.
 - [game-recommendations](skill/game-recommendations/): Use when recommending cross-play games for the household.
 - [games-freebies-digest](skill/games-freebies-digest/): Use when posting Nova's daily games & freebies digest.
+- [gateway-restart-windows](skill/gateway-restart-windows/): Use when Jacque restarts/updates the Hermes gateway, or types '@Nova controls' to summon the Nova Controls button card.
+- [gift-build-picks](skill/gift-build-picks/): Use when posting Nova's weekly gift/build-kit picks.
 - [gig-scout](skill/gig-scout/): Use when scouting 1099/freelance/small-project gigs.
 - [hermes-backup-windows](skill/hermes-backup-windows/): Use when backing up or restoring Jacque's Hermes on Windows.
 - [hermes-ecosystem-digest](skill/hermes-ecosystem-digest/): Use when curating a digest of new Hermes skills/plugins.
 - [hermes-plugins-weekly](skill/hermes-plugins-weekly/): Use when posting the weekly Hermes plugins digest.
 - [homelab-services](skill/homelab-services/): Use when managing self-hosted services on the homelab.
-- [household](skill/household/): Use when adding or removing household bills and chores.
-- [household-budget](skill/household-budget/): Use when revising the household budget workbook.
-- [household-budget-workbook](skill/household-budget-workbook/): Use when editing the household budget workbook.
+- [household](skill/household/): Use when adding or removing household bills, chores, or dated reminders/events on the shared Google Calendar.
+- [household-device-troubleshooting](skill/household-device-troubleshooting/): Use when troubleshooting a home appliance or device.
+- [image-background-removal](skill/image-background-removal/): Use when removing image backgrounds or making cutouts.
+- [impeccable](skill/impeccable/): Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX review, hierarchy, layout, typography, color, motion, UX copy, accessibility, responsive behavior, edge cases, and capturing or documenting design systems (DESIGN.md, tokens). Also for making bland UI bolder, loud UI quieter, or ambitious visual effects. Not for backend-only or non-UI tasks.
 - [job-posting-discovery](skill/job-posting-discovery/): Use when building or running job-posting discovery.
-- [job-posting-intake](skill/job-posting-intake/): Use when building a job-posting discovery pipeline.
+- [job-search-onboarding](skill/job-search-onboarding/): Use when onboarding a job-search user (voice interview).
 - [kanban-orchestration](skill/kanban-orchestration/): Use when setting up or driving multi-profile Kanban work.
+- [kid-craft-ideas](skill/kid-craft-ideas/): Use when Quinlan asks for craft, drawing, or keychain ideas.
 - [local-llm-serving](skill/local-llm-serving/): Use when running local LLMs via Ollama, incl. abliterated.
 - [messaging-platform-bot-setup](skill/messaging-platform-bot-setup/): Use when setting up a chat-platform bot for the gateway.
+- [n8n-job-scout-workflow](skill/n8n-job-scout-workflow/): Use when building/updating Jacque's n8n Job Scout workflow.
+- [n8n-workflow-canvas](skill/n8n-workflow-canvas/): Use when Jacque wants an n8n-style workflow canvas.
 - [nova-ai](skill/nova-ai/): Use when building or operating Jacque's Nova AI on Hermes.
 - [nova-application-pipeline](skill/nova-application-pipeline/): Use when Jacque tailors a resume or cover letter (v3 flow).
 - [nova-budget-design](skill/nova-budget-design/): Use when building or auditing the Nova budget workbook.
+- [nova-card-formatting](skill/nova-card-formatting/): Use when building/editing any Nova Discord card or button.
 - [nova-pipeline-coordination](skill/nova-pipeline-coordination/): Use when verifying Codex work on the Nova pipeline.
 - [nova-routing](skill/nova-routing/): Use when Jacque says ROUTE THIS:. Dispatch via kanban.
 - [paid-research-platforms](skill/paid-research-platforms/): Use when the user works on Prolific or paid survey sites.
 - [personalization-interview](skill/personalization-interview/): Use when running a personalization interview.
+- [pricing](skill/pricing/): Design pricing, packaging, and willingness-to-pay research.
+- [print-tune](skill/print-tune/): Use when building, running, or extending PrintTune.
+- [product-marketing](skill/product-marketing/): Capture positioning, audience, and brand voice context.
+- [product-starter-stack](skill/product-starter-stack/): Use when starting a new product/app build.
 - [profile-fleet-docs](skill/profile-fleet-docs/): Use when reshaping a Hermes profile. Fleet + doc sync.
+- [profile-trigger-analysis](skill/profile-trigger-analysis/): Use when weighing whether a topic needs its own profile.
 - [provider-rate-limits-planning](skill/provider-rate-limits-planning/): Use when choosing AI plans for usage-heavy workflows.
 - [prusaslicer-tuning](skill/prusaslicer-tuning/): Use when tuning PrusaSlicer settings for a print.
+- [revenge-plugin-dev](skill/revenge-plugin-dev/): Use when building a plugin for the Revenge Android mod.
 - [security-scan](skill/security-scan/): Use when auditing for leaked secrets or PII. Masked scan.
 - [shopping-research](skill/shopping-research/): Use when researching a product to buy and recommending it.
+- [skill-hygiene](skill/skill-hygiene/): Use when auditing or cleaning an agent skill library.
+- [skool-scraping](skill/skool-scraping/): Use when scraping Skool communities Jacque is a member of.
+- [staged-write-guard](skill/staged-write-guard/): Use before staging a memory or skill write: dedup first.
 - [subscription-billing-disputes](skill/subscription-billing-disputes/): Use when a subscription charge looks duplicated or wrong.
+- [tech-news-digest](skill/tech-news-digest/): Use when running Nova's daily tech-news digest.
 - [usage-dashboard](skill/usage-dashboard/): Use when updating or refreshing the usage dashboard feeds.
+- [usps-mail-digest](skill/usps-mail-digest/): Use when working on Jacque's USPS mail digest.
+- [vencord-discord-mod](skill/vencord-discord-mod/): Use when installing, theming, or repairing Vencord.
+- [vendor-reply-watch](skill/vendor-reply-watch/): Use when setting up an email reply-watch for vendor/support.
 - [venture-opportunity-scout](skill/venture-opportunity-scout/): Use when scouting venture opportunities for Jacque.
 - [windows-247-networking](skill/windows-247-networking/): Use when a Windows laptop must stay online 24/7 or drops.
 - [wiring-user-credentials](skill/wiring-user-credentials/): Use when an integration needs the user's own credential.
